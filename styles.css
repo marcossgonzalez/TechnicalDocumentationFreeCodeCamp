@@ -5,9 +5,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 main{
-    position: flex;
+    position: absolute;
     text-align: left;
     border: 4px solid black;
+    margin-left: 150px;
 }
 section{
     text-align: center;
@@ -15,4 +16,15 @@ section{
 nav{
     position: absolute;
     text-align: left;
+    float: left;
+    width: 150px;
+}
+@media (max-width: 1300px){
+    main {
+        width: 800px;
+    }
+    
+}
+img{
+    max-width: 790px;
 }
