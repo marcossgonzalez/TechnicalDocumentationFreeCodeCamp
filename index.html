@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <main>
-            
-        </main>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main-doc">
+      <section id="Introdução" class="main-section">
+        <header>Introdução</header>
+        <p>
+          Em sua essência, <code>HTML</code> é uma linguagem bastante simples composta de
+          elementos, que podem ser aplicados a pedaços de texto para dar-lhes
+          significado diferente em um documento (é um parágrafo? é uma lista de
+          seleção? é parte de uma tabela?), estrutura um documento em seções
+          lógicas.
+        </p>
+        <p>
+          (Possui um cabeçalho? Três colunas de conteúdo? Um menu de navegação?)
+          e incorpora conteúdo como imagens e vídeos em uma página. Este módulo
+          irá introduzir os dois primeiros e apresentar conceitos fundamentais e
+          a sintaxe que você precisa saber para entender o <code>HTML</code>.
+        </p>
+      </section>
+      <section id="Navegação" class="main-section">
+        <header>Navegação</header>
+        <p>
+          Antes de iniciar este módulo, você não precisa de nenhum conhecimento
+          prévio sobre HTML, mas deve ter pelo menos uma familiaridade básica em
+          utilizar computadores e utilizar a web passivamente (por exemplo,
+          apenas navegando e consumindo conteúdo).
+        </p>
+        <p>
+          Você deve ter um ambiente de trabalho básico configurado (como
+          detalhado em Instalando os programas básicos) e entender como criar e
+          gerenciar arquivos (como detalhado em Lidando com arquivos). Ambos são
+          partes do nosso módulo completo para iniciantes indrodução à web.
+        </p>
+      </section>
+      <section id="Funções_primárias" class="main-section">
+        <header>Funções primárias</header>
+        <p>HTML <code>(HyperText Markup Language)</code> não é uma linguagem de programação, é uma linguagem de marcação utilizada para dizer ao seu navegador como estruturar a página web que você visita. A página pode ser tanto complicada como simples quanto o desenvolvedor web desejar que seja.</p>
+        <p>HTML consiste em uma série de <code>elementos</code> que você usa para anexar, envolver ou marcar diferentes partes do conteúdo para que apareça ou aja de uma certa maneira. O fechamento das tags pode transformar uma parte do conteúdo dentro do elemento em um link para direcionar à uma outra página web, colocar as palavras em itálico, e assim por diante.</p>
+      </section>
+      <section id="Funções_secundárias" class="main-section">
+        <header>Funções secundárias</header>
+        <img src="Resources/grumpy-cat-small.png" alt="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started">
+        <p>As partes principais do elemento são:
+
+            Tag de abertura: Consiste no nome do elemento ( neste caso: p ), envolvido entre parênteses angulares de abertura e fechamento. Isso indica onde o elemento começa, ou inicia a produzir efeito — neste caso, onde o parágrafo se inicia.</p>
+        <p>Tag de fechamento: É o mesmo que a <code>tag</code> de abertura, exceto que este inclui uma barra diagonal antes do nome do elemento. Indica onde o elemento termina — neste caso, onde fica o fim do parágrafo. Falhar em incluir o fechamento de uma tag é um erro comum para iniciantes e pode levar a resultados estranhos.</p>
+      </section>
+      <section id="Atribuições" class="main-section">
+        <header>Atribuições</header>
+        <p>O conteúdo: Este é o conteúdo do elemento, que neste caso é somente texto.</p>
+        <p>O elemento: A tag de abertura, mais a tag de fechamento, mais o conteúdo, é igual ao elemento.</p>
+      </section>
+      
+    </main>
+    <nav id="navbar">
+        <header>
+            <p>Clique <a class="nav-link" href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started">aqui</a> para saber mais</p>
+        </header>
+            <a class=".nav-link" href="#Introdução">Introdução</a>
+            <a class=".nav-link" href="#Navegação">Navegação</a>
+            <a class=".nav-link" href="#Funções_primárias">Funções primárias</a>
+            <a class=".nav-link" href="#Funções_secundárias">Funções secundárias</a>
+            <a class=".nav-link" href="#Atribuições">Atribuições</a>
+      </nav>
+  </body>
 </html>
